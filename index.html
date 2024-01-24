@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,100;1,9..144,200;1,9..144,300;1,9..144,400&family=Inter:wght@100;200;300&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Open+Sans:ital,wght@1,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+    
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter',sans-serif;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100vh;
+      background-color: hsl(0, 0%, 8%);
+    }
+    .conteiner{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 5px;
+      background-color: hsl(0, 0%, 12%);
+      border-radius: 10px;
+    }
+    .boxs{
+        width: 100%;
+        height:50px;
+        margin: 8px;
+        text-align: center;
+        background-color:  hsl(0, 0%, 20%);
+        border-radius: 10px;
+        color: hsl(0, 0%, 100%);
+    }
+    img {
+      border-radius: 50%;
+    }
+
+    /*.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }*/
+  </style>
+</head>
+<body>
+  <section class="conteiner">
+      <div class="cabecario">
+          <img src="assets/images/avatar-jessica.jpeg">
+          <h1>Jessica Randall</h1>
+          <h4>London, United Kingdom</h4>
+      </div>
+      <nav>
+        <p>"Front-end developer and avid reader."</p>
+      </nav>
+      <footer class="boxs"><h4>GitHub</h4></footer>
+      <footer class="boxs"><h4>Frontend Mentor</h4></footer>
+      <footer class="boxs"><h4>LinkedIn</h4></footer>
+      <footer class="boxs"><h4>Twitter</h4></footer>
+      <footer class="boxs"><h4>Instagram</h4></footer>
+  </section>
+
+<!--  Jessica Randall
+  London, United Kingdom
+  "Front-end developer and avid reader."
+
+  GitHub
+  Frontend Mentor
+  LinkedIn
+  Twitter
+  Instagram
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>-->
+</body>
+</html>
